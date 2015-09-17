@@ -1,5 +1,7 @@
-var isVowel = function(vow) {
-    return ['a', 'e', 'i', 'o', 'u'].indexOf(vow.toLowerCase()) !== -1
+
+
+var isVowel = function(char) {
+    return ['a', 'e', 'i', 'o', 'u'].indexOf(char.toLowerCase()) !== -1
 };
 
 function translate(string) {
@@ -16,3 +18,5 @@ function translate(string) {
 }
 
 console.log(translate('this is fun'));
+console.log(translate('In order to understand recursion, one must first understand recursion.'));
+console.log(translate('**THIS IS FUN**'));
