@@ -1,6 +1,6 @@
-function Item (obj) {
-    this.price = obj.price;
-    this.name = obj.name;
+function Item (price, name) {
+    this.price = price;
+    this.name = name;
 }
 
 
